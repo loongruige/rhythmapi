@@ -7,7 +7,7 @@ import time
 
 class Rhythm():
 	def __init__(self, bpm, measure):
-		given_value{
+		given_value = {
 			"bpm": int(bpm),
 			"sleep": int(given_value["bpm"]/4),
 			"measure_sleep": [given_value["sleep"], given_value["bpm"]/2, given_value["bpm"]/4*3, given_value["bpm"]/4]
